@@ -10,7 +10,9 @@ namespace ConsoleOOD
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> dic = new Dictionary<string, string>();
+            TestClass tClass = new TestClass();
+            tClass.GetObjectMember();
+            Console.ReadLine();
         }
     }
 }
